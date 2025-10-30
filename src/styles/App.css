@@ -1,0 +1,293 @@
+/* Header */
+
+header {
+display: flex;
+justify-content: center;
+}
+
+header img {
+  padding: 16px;
+}
+
+/* Body */
+
+body {
+    color: var(--fifth-color);
+    font-family: var(--font-text);
+    background: var(--third-color)
+}
+
+body div main h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+    height: 120px;
+}
+
+body div main h1,
+body div main h2,
+body div main h3 {
+    font-family: var(--font-title);
+    color: var(--primary-color);
+}
+
+body div main h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+}
+
+body main aside {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  margin-top: 16px;
+  text-align: center;
+}
+
+body main aside label {
+  width: 100%;
+  margin-right: 32px;
+}
+
+body div main aside:after {
+  display: block;
+  content: '';
+  height: 4px;
+  background-color: var(--primary-color);
+  width: 70%;
+  margin: auto;
+  margin-top: 16px;
+}
+
+section {
+  margin: 32px 16px;
+}
+
+section.weapons {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  justify-items: center;
+  gap: 16px;
+}
+
+section.skills {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap:16px;
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.5);
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    height: 300px;
+}
+
+section article:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 11px 5px rgba(120, 120, 120, 0.7);
+    cursor: pointer;
+}
+
+section.weapons article img {
+  height: 240px;
+  min-width: 40px;
+}
+
+section.weapons article img {
+    transition: all .5s ease-in-out;
+    padding: 0px 72px;
+}
+
+section.weapons article img:hover {
+    transform: rotate(360deg)
+}
+
+section.gustave-weapons article img,
+section.verso-weapons article img {
+    width: 64px;
+    height: 240px;
+}
+
+section.lune-weapons article img {
+    width: 120px;
+    height: 136px;
+    padding: 0;
+}
+
+section.maelle-weapons article img {
+    min-width: 40px;
+    height: 240px;
+    padding: 0;
+}
+
+section.sciel-weapons article img {
+    min-width: 40px;
+    height: 240px;
+    padding: 0;
+}
+
+section.monoco-weapons article img {
+    width: 104px;
+    height: 240px;
+    padding: 0;
+}
+section.skills article img {
+  height: 104px;
+  width: 104px
+}
+
+.inputCheck:hover, .labelCheck:hover {
+  cursor: pointer;
+}
+
+/* Modal part */
+
+.modal-container, .modal-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-overlay {
+ background: rgba(49,49,49,0.3);
+ backdrop-filter: blur(4px) 
+}
+
+.modal-content-skills {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: rgba(60, 60, 60);
+    border : solid 4px white;
+    padding: 14px 28px;
+    border-radius: 16px;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 400px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;  
+    gap: 40px;
+}
+
+.modal-content-skills img {
+  height: 80px;
+}
+
+.modal-content-skills div {
+  width: 65%;
+}
+
+.modal-content-skills div.costAP-container {
+  position: absolute;
+  top: 12px;
+  right: 56px;
+  height: 20px;
+  width: 20px;
+  background: rgb(4, 100, 164);
+  border: solid 2px var(--primary-color);
+  transform: rotate(45deg);
+}
+
+.modal-content-skills div p.costAP {
+  padding-top: 1px;
+  padding-left: 8px;
+  transform: rotate(-45deg);
+}
+
+.modal-content-weapon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: rgba(60, 60, 60);
+    border : solid 4px white;
+    padding: 14px 28px;
+    border-radius: 16px;
+    max-width: 600px;
+    min-width: 400px;
+    max-height: 400px;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.modal-content-weapon img {
+  max-height: 200px;
+  grid-row: 1/5;
+}
+
+.modal-content-weapon .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content-weapon .level {
+  grid-column: 2/6;
+}
+
+.modal-content input {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  height: 40px;
+  width: 40px;
+}
+
+.modal-content .number {
+  font-family: var(--font-number);
+  font-weight: 300;
+  color: white;
+}
+
+.modal-content-skills h3:after {
+  display: block;
+  content: '';
+  height: 1px;
+  background-color: var(--primary-color);
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 16px;
+}
+
+/* Footer */
+
+footer {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
