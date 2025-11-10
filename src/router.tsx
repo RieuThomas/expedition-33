@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Equipment from "./pages/Equipment";
 import Character from "./pages/Character";
 import Bestiary from "./pages/Bestiary";
+import CharacterCard from "./pages/CharacterCard";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
       {
         path: "/Bestiary",
         element: <Bestiary />,
+      },
+      {
+        path: "/character/:names",
+        element: <CharacterCard />
+
       }
     ],
   },

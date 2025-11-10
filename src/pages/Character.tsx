@@ -1,6 +1,12 @@
+import Expedition from '../data/data.ts'
+import type { CharacterAboutProps } from '../interface/character.ts'
+import CharacterSection from '../component/CharacterSection.tsx'
+
 function Character() {
     return(
-        <h1>Hello Character</h1>
+        Expedition.characterAbout.map((characterInfos: CharacterAboutProps) => (
+          <CharacterSection key={characterInfos.character} characterInfos={characterInfos} />
+        ))
     )
 }
 
