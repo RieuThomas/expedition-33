@@ -2,6 +2,7 @@ import { useParams } from "react-router"
 import Expedition from '../data/data.ts'
 import WeaponsList from '../component/WeaponsList.tsx'
 import SkillsList from "../component/SkillsList.tsx"
+import CharacterSection from "../component/CharacterSection.tsx"
 
 function CharacterCard() {
     const characters = Expedition.characterAbout
@@ -10,7 +11,11 @@ function CharacterCard() {
 
     return  (
         <>
-            <h1>Hello {names}</h1>
+            <h2>{names}</h2>
+            {characterToShow && 
+            <section className='character'>
+                <CharacterSection secondPortrait={characterToShow.secondPortrait} description={characterToShow.description} />
+            </section>}
 
             <h2>Skills</h2>
             {characterToShow && 

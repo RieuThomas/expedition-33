@@ -6,7 +6,7 @@ const Expedition : ExpeditionProps =
 			{
 				"name": "Gustave",
 				"firstPortrait":"https://expedition33.wiki.fextralife.com/file/Expedition-33/gustave-character-portrait-clair-obscur-expedition-33-wiki-guide-250px.png",
-				"secondPortrait":"https://static.wikia.nocookie.net/clair-obscur/images/1/1d/COE33_char_icon_Gustave.png/revision/latest?cb=20250506001950",
+				"secondPortrait":"https://static.wixstatic.com/media/98aef2_bc19f6a72662456597378693df9762d2~mv2.png/v1/fill/w_752,h_775,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Gustave.png",
 				"description": "Gustave is a resourceful and dedicated Engineer who is chosen to lead the 33rd Expedition. He devotes his final year to defeating the Paintress and to reclaim the future for the youngins of Lumiere. His persistence comes from the choking feeling of the Patinress' constant presence over Lumière and the anxieties of inevitable death. He is the foster father and brother of Maelle. At the end of Act 1 he is slain by Renoir and is no longer a member of the party.",
 				"sentence":"For those who come after.",
 				"skills": [
@@ -603,7 +603,7 @@ const Expedition : ExpeditionProps =
 			{
 				"name": "Lune",
 				"firstPortrait":"https://expedition33.wiki.fextralife.com/file/Expedition-33/lune-character-portrait-clair-obscur-expedition-33-wiki-guide-250px.png",
-				"secondPortrait":"https://static.wikia.nocookie.net/clair-obscur/images/9/91/COE33_char_icon_Lune.png/revision/latest?cb=20250506001951",
+				"secondPortrait":"https://static.wixstatic.com/media/98aef2_c45760e2af5345ef9d127f15bd45e8dc~mv2.png/v1/fill/w_980,h_1075,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/lune-bio-page.png",
 				"description": "Lune is a passionate Scholar and Mage who is in charge of charting a path for the 33rd Expedition. This gives her the weight of responsibility to make sure that the Expedition does not fail. She is the daughter of two prominent researchers, and she inherits her deep thirst for knowledge and discoveries. That being said, she will make sure and will sacrifice everything in order to complete her parents' work.",
 				"sentence":"When one falls, we continue.",
 				"skills": [
@@ -1216,7 +1216,7 @@ const Expedition : ExpeditionProps =
 			{
 				"name": "Maelle",
 				"firstPortrait":"https://expedition33.wiki.fextralife.com/file/Expedition-33/maelle-character-portrait-clair-obscur-expedition-33-wiki-guide-250px.png",
-				"secondPortrait":"https://static.wikia.nocookie.net/clair-obscur/images/d/d6/COE33_char_icon_Maelle.png/revision/latest?cb=20250506001952",
+				"secondPortrait":"https://static.wixstatic.com/media/98aef2_336ae9e29180469fa448612769061884~mv2.png/v1/fill/w_739,h_775,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/maelle.png",
 				"description": "Maelle is the overarching protagonist of Expedition 33 and the foster sister/daughter of Gustave, though she is more of a shy loner, but is eager to fly; her reasoning to join the 33rd Expedition at the age of 16 is to explore the world outside of Lumiere. She was orphaned at the young age of 3 and has never felt like she fit in anywhere in Lumiere, but has a deep appreciation and trust towards Gustave. Maelle is in reality the canvas reincarnation of Alicia Dessendre after she enters with the goal of stopping Aline and Renoir from fighting over the fate of the canvas. Maelle herself wishes the Canvas world to remain intact and after becoming a paintress, she gains the goal of resurrecting everyone and stopping her father and her painted brother from destroying it.",
 				"sentence":"I've had enough condolences.",
 				"skills": [
@@ -1868,7 +1868,7 @@ const Expedition : ExpeditionProps =
 			{
 				"name": "Sciel",
 				"firstPortrait":"https://expedition33.wiki.fextralife.com/file/Expedition-33/sciel-character-portrait-clair-obscur-expedition-33-wiki-guide-250px.png",
-				"secondPortrait":"https://static.wikia.nocookie.net/clair-obscur/images/4/44/COE33_char_icon_Sciel.png/revision/latest?cb=20250506001953",
+				"secondPortrait":"https://static.wixstatic.com/media/98aef2_9fe831d1c67b4b688a5647b7cec347e4~mv2.png/v1/fill/w_739,h_775,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sciel.png",
 				"description": "Sciel is a cheerful yet serene Warrior who wields a Scythe and has put all her commitment into the Expedition to make sure they do not fail. Growing up, Sciel was a farmer until she became a teacher. Her carefree personality allows her to enjoy life and accept the fate she will have at the hands of the Paintress.",
 				"sentence":"Death is a friend who will welcome me home.",
 				"skills": [
@@ -2472,7 +2472,7 @@ const Expedition : ExpeditionProps =
 			{
 				"name": "Verso",
 				"firstPortrait":"https://expedition33.wiki.fextralife.com/file/Expedition-33/verso-character-portrait-clair-obscur-expedition-33-wiki-guide-250px.png",
-				"secondPortrait":"https://static.wikia.nocookie.net/clair-obscur/images/2/25/Painted_Verso_Icon.png/revision/latest?cb=20250818070958",
+				"secondPortrait":"https://static.wixstatic.com/media/98aef2_e7c1f32b486d48a098ac4ba25eb6c4bc~mv2.png/v1/fill/w_739,h_775,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/verso.png",
 				"description": "Verso is a member of Expedition Zero. He wanders The Continent and keeps a close eye on the surviving members of Expedition 33. Verso is an experienced fighter and can fight against any threat that comes his way. Verso joins Expedition 33 to achieve the goal of stopping the Paintress from ever painting again. He is a member of the Painted Dessendre family, created by Aline, The Paintress, as a coping mechanism for her grief. Real Verso created the Canvas, the world where Expedition 33 takes place. He wishes to destroy the Canvas and everyone in it in an attempt to give his family closure and put his soul to rest.",
 				"sentence":"Our Whole World Carries The Burden Of Your Family's Grief.",
 				"skills": [
@@ -3183,7 +3183,7 @@ const Expedition : ExpeditionProps =
 			{
 				"name": "Monoco",
 				"firstPortrait":"https://expedition33.wiki.fextralife.com/file/Expedition-33/monoco-character-portrait-clair-obscur-expedition-33-wiki-guide-250px.png",
-				"secondPortrait":"https://assets-ng.maxroll.gg/wordpress/monoco-e33feature2.webp",
+				"secondPortrait":"https://static.wixstatic.com/media/98aef2_4ae141efaf924d668c71b5f445e2d28e~mv2.png/v1/fill/w_739,h_775,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Monoco.png",
 				"description": "Monoco is a Gestral, a group of friendly beings who enjoy the thrill of battle and view competition as a form of meditation. As one of the few Gestrals who speak the human language, Monoco has adopted a scholarly demeanour which belies a bloodthirsty spirit. Though Gestrals are untouched by the Paintress, the prospect of combat entices Monoco to join the Expedition.",
 				"sentence":"My what lovely feet.",
 				"skills": [

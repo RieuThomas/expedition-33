@@ -2,7 +2,7 @@ import type { SkillsProp } from "./skills";
 import type { WeaponsProp } from "./weapon";
 
 export interface CharacterAboutProps {
-  name : string,
+  name: string,
   firstPortrait: string,
 	secondPortrait: string,
 	description: string,
@@ -12,5 +12,7 @@ export interface CharacterAboutProps {
 }
 
 export interface CharacterSectionProps {
-  characterInfos : CharacterAboutProps
+  secondPortrait: string,
+  description: string,
 }
+

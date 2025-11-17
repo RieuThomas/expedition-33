@@ -18,43 +18,84 @@ header img {
 header nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
+  height: 300px;
+}
+
+header nav div.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+header nav div div.dropdown{
+  position: absolute;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--third-color);
+}
+
+header nav div ul li {
+  list-style: none;
 }
 
 header nav a {
   text-decoration: none;
   color: var(--primary-color);
   font-family: var(--font-text);
+  text-align: center;
+  font-size: 1.3rem;
+  width: 100px;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+header nav a:hover {
+  background-color: var(--fourth-color);
+  text-decoration: underline;
+  transition: all .3s ease-in-out;
 }
 
 /* Body */
 
 body {
-    color: var(--fifth-color);
-    font-family: var(--font-text);
-    background: var(--third-color)
+  color: var(--fifth-color);
+  font-family: var(--font-text);
+  background: var(--third-color)
 }
 
 body div main h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    margin: 40px;
-    height: 120px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+  height: 120px;
 }
 
 body div main h1,
 body div main h2,
 body div main h3 {
-    font-family: var(--font-title);
-    color: var(--primary-color);
+  font-family: var(--font-title);
+  color: var(--primary-color);
 }
 
 body div main h2 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 80px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 90%;
+  margin: auto;
+}
+
+body div main h2::before {
+  display: block;
+  content: "";
+  background: var(--primary-color);
+  height: 2px;
+  margin-bottom: 20px
 }
 
 body main aside {
@@ -81,7 +122,25 @@ body div main aside:after {
 }
 
 section {
-  margin: 32px 16px;
+  margin: 40px;
+}
+
+section.all-character {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 42px;
+  width: 90%;
+}
+
+.character-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.sentence {
+  font-size: 1.1rem;
+  font-style: italic;
 }
 
 section.weapons {
@@ -94,7 +153,7 @@ section.weapons {
 section.skills {
   display: grid;
   grid-template-columns: repeat(8,1fr);
-  gap:16px;
+  gap: 16px;
 }
 
 section article {
@@ -110,20 +169,61 @@ section article {
     height: 300px;
 }
 
+section.all-character article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+}
+
 section article:hover {
     transform: scale(1.02);
     box-shadow: 0px 0px 11px 5px rgba(120, 120, 120, 0.7);
     cursor: pointer;
 }
 
-section.weapons article img {
+section.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(60, 60, 60, 0.5);
+  border-radius: 8px;
+  padding: 32px 0px;
+  gap: 120px;
+  background-image: url("https://static.wixstatic.com/media/52610a_549edd34a6334553b74ade3490813210~mv2.webp/v1/fill/w_1901,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/52610a_549edd34a6334553b74ade3490813210~mv2.webp");
+}
+
+section.character img {
+  width: 400px;
+  height: 400px;
+}
+
+section.all-character img {
+  width: 160px;
+}
+
+section.character div.text-container {
+  background-image: url("https://static.wixstatic.com/media/52610a_0edf332a2d8643c1858fc4775dfbb02f~mv2.png/v1/fill/w_1143,h_313,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lead%20the%20members%20Line.png");
+  width: 40%;
+}
+
+section.character div p {
+  text-align: center;
+  line-height: 1.5;
+  padding: 32px 64px;
+}
+
+section.skills article {
   height: 240px;
-  min-width: 40px;
 }
 
 section.weapons article img {
-    transition: all .5s ease-in-out;
-    padding: 0px 72px;
+  height: 240px;
+  min-width: 40px;
+  transition: all .5s ease-in-out;
+  padding: 0px 72px;
 }
 
 section.weapons article img:hover {
@@ -160,8 +260,8 @@ section.monoco-weapons article img {
     padding: 0;
 }
 section.skills article img {
-  height: 104px;
-  width: 104px
+  height: 100px;
+  width: 100px
 }
 
 .inputCheck:hover, .labelCheck:hover {
