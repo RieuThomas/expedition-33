@@ -1,0 +1,29 @@
+section.all-character {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 42px;
+  width: 90%;
+}
+
+section.all-character article {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+}
+
+section.all-character img {
+  width: 160px;
+}
+
+.character-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.sentence {
+  font-size: 1.1rem;
+  font-style: italic;
+}

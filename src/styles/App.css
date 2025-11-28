@@ -121,39 +121,14 @@ body div main aside:after {
   margin-top: 16px;
 }
 
+.inputCheck:hover, .labelCheck:hover {
+  cursor: pointer;
+
+  
+}
+
 section {
   margin: 40px;
-}
-
-section.all-character {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 42px;
-  width: 90%;
-}
-
-.character-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.sentence {
-  font-size: 1.1rem;
-  font-style: italic;
-}
-
-section.weapons {
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  justify-items: center;
-  gap: 16px;
-}
-
-section.skills {
-  display: grid;
-  grid-template-columns: repeat(8,1fr);
-  gap: 16px;
 }
 
 section article {
@@ -169,19 +144,30 @@ section article {
     height: 300px;
 }
 
-section.all-character article {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 12px;
-}
-
 section article:hover {
     transform: scale(1.02);
     box-shadow: 0px 0px 11px 5px rgba(120, 120, 120, 0.7);
     cursor: pointer;
 }
+
+/* Skills*/
+
+section.skills {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap: 16px;
+}
+
+section.skills article {
+  height: 240px;
+}
+
+section.skills article img {
+  height: 100px;
+  width: 100px
+}
+
+/* Character */
 
 section.character {
   display: flex;
@@ -200,10 +186,6 @@ section.character img {
   height: 400px;
 }
 
-section.all-character img {
-  width: 160px;
-}
-
 section.character div.text-container {
   background-image: url("https://static.wixstatic.com/media/52610a_0edf332a2d8643c1858fc4775dfbb02f~mv2.png/v1/fill/w_1143,h_313,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Lead%20the%20members%20Line.png");
   width: 40%;
@@ -215,8 +197,13 @@ section.character div p {
   padding: 32px 64px;
 }
 
-section.skills article {
-  height: 240px;
+/* Weapons */
+
+section.weapons {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  justify-items: center;
+  gap: 16px;
 }
 
 section.weapons article img {
@@ -258,136 +245,6 @@ section.monoco-weapons article img {
     width: 104px;
     height: 240px;
     padding: 0;
-}
-section.skills article img {
-  height: 100px;
-  width: 100px
-}
-
-.inputCheck:hover, .labelCheck:hover {
-  cursor: pointer;
-}
-
-/* Modal part */
-
-.modal-container, .modal-overlay {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.modal-overlay {
- background: rgba(49,49,49,0.3);
- backdrop-filter: blur(4px) 
-}
-
-.modal-content-skills {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1.4;
-    background-color: rgba(60, 60, 60);
-    border : solid 4px white;
-    padding: 14px 28px;
-    border-radius: 16px;
-    max-width: 500px;
-    min-width: 300px;
-    max-height: 400px;
-    min-height: 150px;
-    display: flex;
-    align-items: center;  
-    gap: 40px;
-}
-
-.modal-content-skills img {
-  height: 80px;
-}
-
-.modal-content-skills div {
-  width: 65%;
-}
-
-.modal-content-skills div.costAP-container {
-  position: absolute;
-  top: 12px;
-  right: 56px;
-  height: 20px;
-  width: 20px;
-  background: rgb(4, 100, 164);
-  border: solid 2px var(--primary-color);
-  transform: rotate(45deg);
-}
-
-.modal-content-skills div p.costAP {
-  padding-top: 1px;
-  padding-left: 8px;
-  transform: rotate(-45deg);
-}
-
-.modal-content-weapon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 1.4;
-    background-color: rgba(60, 60, 60);
-    border : solid 4px white;
-    padding: 14px 28px;
-    border-radius: 16px;
-    max-width: 600px;
-    min-width: 400px;
-    max-height: 400px;
-    min-height: 200px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
-.modal-content-weapon img {
-  max-height: 200px;
-  grid-row: 1/5;
-}
-
-.modal-content-weapon .center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-content-weapon .level {
-  grid-column: 2/6;
-}
-
-.modal-content input {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  height: 40px;
-  width: 40px;
-}
-
-.modal-content .number {
-  font-family: var(--font-number);
-  font-weight: 300;
-  color: white;
-}
-
-.modal-content-skills h3:after {
-  display: block;
-  content: '';
-  height: 1px;
-  background-color: var(--primary-color);
-  width: 100%;
-  margin-top: 2px;
-  margin-bottom: 16px;
 }
 
 /* Footer */
