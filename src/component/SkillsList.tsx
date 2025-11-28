@@ -10,6 +10,7 @@ function SkillsList({ skills }: SkillListProp) {
                     image={skill.image} 
                     name={skill.name} 
                     description={skill.description}
+                    description_2={skill.description_2}
                     costAP={skill.costAP} 
                     key={skill.name} 
                     />

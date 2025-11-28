@@ -2,7 +2,7 @@ import { useState } from "react"
 import type { SkillsProp } from "../interface/skills"
 import SkillModal from "./SkillModal"
 
-function SkillCard({image, name, costAP, description}: SkillsProp) {
+function SkillCard({image, name, costAP, description, description_2}: SkillsProp) {
 
     const [isModalOpen, setIsModalOpen] = useState(false)
 
@@ -19,6 +19,7 @@ function SkillCard({image, name, costAP, description}: SkillsProp) {
                 name={name}
                 costAP={costAP}
                 description={description}
+                description_2={description_2}
                 isModalOpen={isModalOpen}
                 setIsModalOpen={setIsModalOpen} 
                 />

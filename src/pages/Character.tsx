@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import Expedition from '../data/data.ts'
+import '../styles/Character.css'
 
 function Character() {
     const characters = Expedition.characterAbout

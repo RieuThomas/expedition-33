@@ -6,6 +6,7 @@ export interface CharacterAboutProps {
   firstPortrait: string,
 	secondPortrait: string,
 	description: string,
+  description_2?: string,
   sentence: string,
   weapons : WeaponsProp[],
   skills : SkillsProp[],

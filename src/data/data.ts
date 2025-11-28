@@ -12,13 +12,15 @@ const Expedition : ExpeditionProps =
 				"skills": [
 					{
 						"name": "From Fire",
-						"description": "Deals medium single target damage (3 hits) using weapon's element. Heals self by 20% if the target is Burned.",
+						"description": "Deals medium single target damage (3 hits) using weapon's element.",
+						"description_2": "Heals self by 20% if the target Burns.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/from-fire-gustave-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Lumiere Assault",
-						"description": "Deals low single target damage (5 hits) using weapon's element. Critical hits generate 1 Additional Charge.",
+						"description": "Deals low single target damage (5 hits) using weapon's element.",
+						"description_2": "Critical Hits generate 1 Additional Charge.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/lumiere-assault-gustave-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
@@ -30,25 +32,29 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Overcharge",
-						"description": "Deals high Lightning damage based on the number of Charges (1 hit). Can Break enemies.",
+						"description": "Deals high Lightning damage based on the number of Charges (1 hit).",
+						"description_2": "Can Break enemies.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/overcharge-gustave-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Powerful",
-						"description": "Applies Powerful to 1–3 allies, increasing their damage for 3 turns. Grants 0–2 Charges.",
+						"description": "Applies Powerful to 1–3 allies, increasing their damage for 3 turns.",
+						"description_2": "Grants 0–2 Charges.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/powerful-gustave-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Recovery",
-						"description": "Recovers 50% Health and dispels Status Effects. Grants 0–2 Charges.",
+						"description": "Recovers 50% Health and dispels Status Effects.",
+						"description_2": "Grants 0–2 Charges.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/recovery-gustave-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Shatter",
-						"description": "Deals high Lightning damage to all enemies (1 hit). Can Break. If a target is Broken by this hit, Overcharge becomes fully Charged.",
+						"description": "Deals high Lightning damage to all enemies (1 hit).",
+						"description_2": "Can Break. If a target is Broken by this hit, Overcharge becomes fully Charged.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/shatter-gustave-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
@@ -609,97 +615,113 @@ const Expedition : ExpeditionProps =
 				"skills": [
 					{
 						"name": "Crippling Tsunami",
-						"description": "Deals medium Ice damage to all enemies (1 hit). Applies Slow for 3 turns. Consumes Earth, Lightning, and Fire Stains for greatly increased damage.",
+						"description": "Deals medium Ice damage to all enemies (1 hit). Applies Slow for 3 turns.",
+						"description_2": "Consumes Earth Stain Lightning Stain Fire Stain for greatly increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/crippling-tsunami-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Crustal Crush",
-						"description": "Deals high single-target Earth and Break damage (5 hits). Consumes Lightning Stain for increased damage.",
+						"description": "Deals high single-target Earth and Break damage (5 hits).",
+						"description_2": "Consumes Lightning Stain Lightning Stain for increased damage.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/crustal-crush-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Earth Rising",
 						"description": "Deals low Earth damage to all enemies (1 hit). Consumes Lightning Stain for increased damage.",
+						"description_2": "Consumes Lightning Stain for increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/earth-rising-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Electrify",
-						"description": "Deals low single-target Lightning damage (3 hits). Critical Hits trigger an additional hit. Consumes Fire Stain to generate one Light Stain.",
+						"description": "Deals low single-target Lightning damage (3 hits). Critical Hits trigger an additional hit.",
+						"description_2": "Consumes Fire Stain to generate one Light Stain.",
 						"costAP": 1,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/electrify-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Elemental Genesis",
-						"description": "Deals extreme damage to all enemies (8 hits). Each hit deals damage in a random element. Can only be cast with Lightning, Earth, Fire, and Ice Stains.",
+						"description": "Deals extreme damage to all enemies (8 hits). Each hit deals damage in a random element",
+						"description_2": "Can only be cast with Lightning Stain Earth Stain Fire Stain Ice Stain.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/elemental-genesis-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Elemental Trick",
 						"description": "Deals low single-target Ice, Fire, Lightning, and Earth damage (4 hits). Critical Hits generate the corresponding Stain.",
+						"description_2": "Critical Hits generate the corresponding Stain.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/elemental-trick-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Fire Rage",
-						"description": "Deals increasingly high Fire damage to all enemies every turn until Lune receives damage. Stuns self if interrupted. Consumes Ice Stain for increased damage.",
+						"description": "Deals increasingly high Fire damage to all enemies every turn until Lune receives damage. Stuns self if interrupted.",
+						"description_2": "Consumes Ice Stain Ice Stain for increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/fire-rage-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Healing Light",
-						"description": "Heals the targeted ally and dispels Status Effects. Consumes Earth Stain: costs 0 AP.",
+						"description": "Heals the targeted ally and dispels Status Effects.",
+						"description_2": "Consumes Earth Stain Earth Stain: costs 0 AP.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/healing-light-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Hell",
-						"description": "Deals very high Fire damage that applies 5 Burn per hit to all enemies (2 hits). Deals self-damage if failed. Consumes Ice, Earth, and Lightning Stains for greatly increased damage.",
+						"description": "Deals very high Fire damage that applies 5 Burn per hit to all enemies (2 hits). Deals self-damage if failed.",
+						"description_2": "Consumes Ice Stain Earth Stain Lightning Stain: Greatly increased damage.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/hell-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Ice Lance",
 						"description": "Deals medium single-target Ice damage that Slows the target (1 hit). Consumes Earth Stain for increased damage.",
+						"description_2": "Consumes Earth Stain for increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/ice-lance-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Immolation",
-						"description": "Deals low single-target Fire damage and applies 3 Burn (1 hit). Applies 2 more Burns if the target is Marked. Consumes Ice Stain for increased damage.",
+						"description": "Deals low single-target Fire damage and applies 3 Burn (1 hit). Applies 2 more Burns if the target is Marked.",
+						"description_2": "Consumes Ice Stain for increased damage.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/immolation-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Lightning Dance",
-						"description": "Deals very high single-target Lightning damage (6 hits). Critical Hits trigger an additional hit. Consumes Earth, Ice, and Fire Stains for greatly increased damage.",
+						"description": "Deals very high single-target Lightning damage (6 hits). Critical Hits trigger an additional hit.",
+						"description_2": "Consumes Earth Stain Ice Stain Fire Stain: Greatly increased damage.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/lightning-dance-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Mayhem",
-						"description": "Consumes all Stains to deal high elemental damage to the target. Can Break if 4 Stains are consumed.",
+						"description": "Consumes all Stains to deal high elemental damage to the target.",
+						"description_2": "Can Break if 4 Stains are consumed.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/mayhem-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Rebirth",
-						"description": "Revives an ally with 30–70% Health and 2 additional AP. Consumes Lightning Stains: costs 0 AP.",
+						"description": "Revives an ally with 30–70% Health and 2 additional AP.",
+						"description_2": "Consumes Lightning Stain Lightning Stain Lightning Stain: costs 0 AP.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/rebirth-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Revitalization",
-						"description": "Heals 1–3 allies by 40–60% Health. Consumes Fire Stains to also apply Regen that heals on turn start for 3 turns.",
+						"description": "Heals 1–3 allies by 40–60% Health.",
+						"description_2": "Consumes Fire Stain Fire Stain Fire Stain to also apply Regen that heals on turn start for 3 turns.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/revitalization-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Rockslide",
-						"description": "Deals medium single-target Earth damage (2 hits). Can Break. Consumes Lightning, Ice, and Fire Stains for greatly increased damage.",
+						"description": "Deals medium single-target Earth damage (2 hits). Can Break.",
+						"description_2": "Consumes Lightning Stain Ice Stain Fire Stain for greatly increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/rockslide-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -711,25 +733,29 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Storm Caller",
-						"description": "All enemies receive medium Lightning damage at the end of their turn and low Lightning damage when they receive damage. Duration: 3 turns. Consumes Fire Stains for double thunder strikes on turn end.",
+						"description": "All enemies receive medium Lightning damage at the end of their turn and low Lightning damage when they receive damage. Duration: 3 turns.",
+						"description_2": "Consumes Fire Stain Fire Stain for double thunder strikes on turn end.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/storm-caller-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Terraquake",
-						"description": "Deals low Earth and Break damage to all enemies every turn. Also increases Break damage received by 50%. Duration: 3 turns. Consumes Lightning Stains to increase duration to 5 turns.",
+						"description": "Deals low Earth and Break damage to all enemies every turn. Also increases Break damage received by 50%. Duration: 3 turns.",
+						"description_2": "Consumes Lightning Stain Lightning Stain to increase duration to 5 turns.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/terraquake-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Thermal Transfer",
-						"description": "Deals low single-target Ice damage (2 hits). Gains 4 AP if the target is Burning. Consumes Earth Stains to play a second turn.",
+						"description": "Deals low single-target Ice damage (2 hits). Gains 4 AP if the target is Burning.",
+						"description_2": "Consumes Earth Stain Earth Stain: Play a second turn.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/thermal-transfer-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Thunderfall",
-						"description": "Deals medium Lightning damage to random enemies (2–6 hits). Critical Hits trigger an additional hit. Consumes Fire Stain for increased damage.",
+						"description": "Deals medium Lightning damage to random enemies (2–6 hits). Critical Hits trigger an additional hit.",
+						"description_2": "Consumes Fire Stain for increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/thunderfall-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -747,7 +773,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Typhoon",
-						"description": "On turn start, deals high Ice damage to all enemies and Heals allies. Consumes Earth Stains to increase duration from 3 to 5 turns.",
+						"description": "On turn start, deals high Ice damage to all enemies and Heals allies.",
+						"description_2": "Consumes Earth Stain Earth Stain to increase duration from 3 to 5 turns.",
 						"costAP": 8,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/typhoon-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					}
@@ -1222,19 +1249,22 @@ const Expedition : ExpeditionProps =
 				"skills": [
 					{
 						"name": "Breaking Rules",
-						"description": "Deals low single-target Physical damage (2 hits). Destroys all target's Shields and gains 1 AP per Shield destroyed. If the target is Defenseless, play a second turn.",
+						"description": "Deals low single-target Physical damage (2 hits). Destroys all target's Shields and gains 1 AP per Shield destroyed.",
+						"description_2":"If the target is Defenseless, play a second turn.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/breaking-rules-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Burning Canvas",
-						"description": "Changes stance to Offensive. Deals high single-target Void damage (5 hits). Applies 1 Burn per hit. Damage increases for each Burn on the target.",
+						"description": "Changes stance to Offensive.",
+						"description_2":"Deals high single-target Void damage (5 hits). Applies 1 Burn per hit. Damage increases for each Burn on the target.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/burning-canvas-maelle-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Combustion",
-						"description": "Deals medium single-target Physical damage (2 hits). Consumes up to 10 Burn stacks for increased damage.",
+						"description": "Deals medium single-target Physical damage (2 hits).",
+						"description_2":"Consumes up to 10 Burn stacks for increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/combustion-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1252,13 +1282,15 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Fencer's Flurry",
-						"description": "Deals medium damage to all enemies (1 hit). Uses weapon's element. Applies Defenseless for 1 turn.",
+						"description": "Deals medium damage to all enemies (1 hit). Uses weapon's element.",
+						"description_2":"Applies Defenseless for 1 turn.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/fencers-flurry-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Fleuret Fury",
-						"description": "Deals high single-target Physical damage (3 hits). If in Virtuose Stance, remain in that stance. Can Break.",
+						"description": "Deals high single-target Physical damage (3 hits). If in Virtuose Stance, remain in that stance.",
+						"description_2":"Can Break.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/fleuret-fury-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1270,7 +1302,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Guard Down",
-						"description": "Changes stance to Offensive. Applies Defenseless to all enemies for 3 turns.",
+						"description": "Changes stance to Offensive.",
+						"description_2":"Applies Defenseless to all enemies for 3 turns.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/guard-down-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1288,7 +1321,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Last Chance",
-						"description": "Reduces self-Health to 1 but refills all AP. Switches to Virtuose Stance.",
+						"description": "Reduces self-Health to 1 but refills all AP.",
+						"description_2":"Switches to Virtuose Stance.",
 						"costAP": 1,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/last-chance-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1300,7 +1334,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Momentum Strike",
-						"description": "Deals high single-target damage (1 hit). Uses weapon's element. Increased damage to Marked targets. In Virtuose Stance, costs 4 AP.",
+						"description": "Deals high single-target damage (1 hit). Uses weapon's element. Increased damage to Marked targets.",
+						"description_2":"In Virtuose Stance: costs 4 AP.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/momentum-strike-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1312,19 +1347,22 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Payback",
-						"description": "Deals very high single-target Physical damage (1 hit). Reduced AP cost for each attack parried since last turn. Can Break.",
+						"description": "Deals very high single-target Physical damage (1 hit). Reduced AP cost for each attack parried since last turn.",
+						"description_2":"Can Break.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/payback-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Percee",
-						"description": "Deals medium single-target Physical damage (1 hit). Increased damage to Marked targets. In Virtuose Stance, costs 2 AP.",
+						"description": "Deals medium single-target Physical damage (1 hit). Increased damage to Marked targets.",
+						"description_2":"In Virtuose Stance: costs 2 AP.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/percee-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Phantom Strike",
-						"description": "Changes stance to Defensive. Deals very high Void damage to all enemies (4 hits). Also grants +35% of a Gradient Charge.",
+						"description": "Changes stance to Defensive.",
+						"description_2":"Deals very high Void damage to all enemies (4 hits). Also grants +35% of a Gradient Charge.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/phantom-strike-maelle-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
@@ -1336,37 +1374,43 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Pyrolyse",
-						"description": "Deals extreme single-target Fire damage (3 hits). Applies 5 Burn per hit. In Offensive Stance, applies 2 more Burn per hit.",
+						"description": "Deals extreme single-target Fire damage (3 hits). Applies 5 Burn per hit.",
+						"description_2":"Offensive Stance: applies 2 more Burn per hit.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/pyrolyse-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Rain of Fire",
-						"description": "Deals medium single-target Fire damage (2 hits). Applies 3 Burn per hit. In Defensive Stance, applies 2 more Burn per hit.",
+						"description": "Deals medium single-target Fire damage (2 hits). Applies 3 Burn per hit",
+						"description_2":"Defensive Stance: applies 2 more Burn.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/rain-of-fire-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Revenge",
-						"description": "Deals high single-target Fire damage (1 hit). Damage increases for each hit received since the previous turn. Can Break.",
+						"description": "Deals high single-target Fire damage (1 hit). Damage increases for each hit received since the previous turn.",
+						"description_2":"Can Break.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/revenge-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Spark",
-						"description": "Deals low single-target Fire damage (1 hit). Applies 3 Burn. In Offensive Stance, applies 2 more Burn per hit.",
+						"description": "Deals low single-target Fire damage (1 hit). Applies 3 Burn.",
+						"description_2":"Offensive Stance: applies 2 more Burn.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/spark-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Stendhal",
-						"description": "Changes stance to Stanceless. Deals extreme single-target Void damage (1 hit). Removes self-Shields and applies Defenseless to self.",
+						"description": "Changes stance: Stanceless.",
+						"description_2":"Deals extreme single-target Void damage (1 hit). Removes self-Shields and applies Defenseless to self.",
 						"costAP": 8,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/stendhal-maelle-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Swift Stride",
-						"description": "Deals low single-target Physical damage (1 hit). Switches to Virtuose Stance if target is Burning. Regains 0–2 AP.",
+						"description": "Deals low single-target Physical damage (1 hit). Switches to Virtuose Stance if target is Burning.",
+						"description_2":"Regains 0–2 AP.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/swift-stride-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1880,7 +1924,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Bad Omen",
-						"description": "Deals low Dark damage to all enemies (2 hits). Applies 2 Foretell per hit.",
+						"description": "Deals low Dark damage to all enemies (2 hits).",
+						"description_2": "Applies 2 Foretell per hit.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/bad-omen-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1904,7 +1949,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Delaying Slash",
-						"description": "Deals medium single-target damage (2 hits). Uses weapon's element. Consumes Foretell to increase damage and delay the target's turn.",
+						"description": "Deals medium single-target damage (2 hits). Uses weapon's element.",
+						"description_2": "Consumes Foretell to increase damage and delay the target's turn.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/delyaing-slash-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1922,7 +1968,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Final Path",
-						"description": "Deals extreme single-target Dark damage (1 hit) and applies 10 Foretell. Can Break.",
+						"description": "Deals extreme single-target Dark damage (1 hit) and applies 10 Foretell.",
+						"description_2": "Can Break.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/final-path-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1934,7 +1981,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Focused Foretell",
-						"description": "Deals medium single-target Physical damage (1 hit). Applies 2 Foretell, or 5 if the target has none.",
+						"description": "Deals medium single-target Physical damage (1 hit).",
+						"description_2": "Applies 2 Foretell, or 5 if the target has none.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/focused-foretell-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1946,13 +1994,15 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Grim Harvest",
-						"description": "Deals medium single-target Dark damage (1 hit) and heals all allies by 30% Health. Consumes Foretell to increase healing by 5% per Foretell.",
+						"description": "Deals medium single-target Dark damage (1 hit) and heals all allies by 30% Health.",
+						"description_2": "Consumes Foretell to increase healing by 5% per Foretell.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/grim-harvest-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Harvest",
-						"description": "Deals medium single-target damage (1 hit). Uses weapon's element. Heals self by 40% Health. Consumes all Foretell to increase healing by 5% per Foretell.",
+						"description": "Deals medium single-target damage (1 hit). Uses weapon's element. Heals self by 40% Health.",
+						"description_2": "Consumes all Foretell to increase healing by 5% per Foretell.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/harvest-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1964,7 +2014,8 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Marking Card",
-						"description": "Deals medium single-target Dark damage (2 hits). Applies Mark and 3 Foretell to the target.",
+						"description": "Deals medium single-target Dark damage (2 hits).",
+						"description_2": "Applies Mark and 3 Foretell to the target.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/marking-card-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1976,13 +2027,15 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Phantom Blade",
-						"description": "Deals high single-target Dark damage (1 hit). Consumes all Foretell for additional damage. Can Break.",
+						"description": "Deals high single-target Dark damage (1 hit). Consumes all Foretell for additional damage.",
+						"description_2": "Can Break.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/phantom-blade-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Plentiful Harvest",
-						"description": "Deals medium single-target Physical damage (2 hits). Consumes all Foretell on the target and gives 1 AP to a party member per Foretell consumed.",
+						"description": "Deals medium single-target Physical damage (2 hits).",
+						"description_2": "Consumes all Foretell on the target and gives 1 AP to a party member per Foretell consumed.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/plentiful-harvest-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -1994,31 +2047,36 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Sealed Fate",
-						"description": "Deals high single-target damage (5–7 hits). Uses weapon's element. Each hit can consume 1 Foretell to deal 200% more damage. Critical Hits don't consume Foretell but still gain the bonus.",
+						"description": "Deals high single-target damage (5–7 hits). Uses weapon's element. Each hit can consume 1 Foretell to deal 200% more damage.",
+						"description_2": "Critical Hits don't consume Foretell but still gain the bonus.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sealed-fate-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Searing Bond",
-						"description": "Deals medium single-target Dark damage (1 hit). Applies 5 Foretell. Also damages and applies Foretell to every Burning enemy.",
+						"description": "Deals medium single-target Dark damage (1 hit).",
+						"description_2": "Applies 5 Foretell. Also damages and applies Foretell to every Burning enemy.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/searing-bond-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Shadow Bringer",
-						"description": "Deals high single-target Dark damage to random enemies (10 hits). Applies 1 Foretell per hit.",
+						"description": "Deals high single-target Dark damage to random enemies (10 hits).",
+						"description_2": "Applies 1 Foretell per hit.",
 						"costAP": "Gradient Charge",
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/shadow-bringer-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Spectral Sweep",
-						"description": "Deals medium single-target damage (2–6 hits). Uses weapon's element. Applies 1 Foretell per hit. Critical Hits apply an additional Foretell.",
+						"description": "Deals medium single-target damage (2–6 hits). Uses weapon's element.",
+						"description_2": "Applies 1 Foretell per hit. Critical Hits apply an additional Foretell.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/spectral-sweep-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Twilight Dance",
-						"description": "Deals extreme single-target Dark damage (4 hits). During Twilight, extends its duration by 1 turn. Consumes all Foretell to deal additional damage.",
+						"description": "Deals extreme single-target Dark damage (4 hits). During Twilight, extends its duration by 1 turn.",
+						"description_2": "Consumes all Foretell to deal additional damage.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/twilight-dance-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -2485,72 +2543,84 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Ascending Assault",
 						"description": "Deals low single target damage (1 hit). Uses weapon's element. Increase damage at each cast.",
+						"description_2": "S-rank : Costs 2 AP.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/ascending-assault-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Assault Zero",
 						"description": "Critical Hits generate 1 additional Perfection status effect.",
+						"description_2": "B-rank : Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/assault-zero-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Berserk Slash",
 						"description": "Deals medium single target Physical damage (3 hits). Damage is increased for each missing health.",
+						"description_2": "C-rank : Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/berserk-slash-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Blitz",
 						"description": "Deals low single target Physical damage (1 hit). Plays a second time. Kills non-boss enemies with less than 10% health.",
+						"description_2": "B-rank : Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/blitz-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Burden",
 						"description": "Removes all Status Effects from all allies and applies them to Verso.",
+						"description_2": "Gain 1 rank.",
 						"costAP": 1,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/burden-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Defiant Strike",
 						"description": "Deals high single target Physical damage (2 hits) that applies Mark status effect. Costs 30% of current Health.",
+						"description_2": "B-rank : Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/defiant-strike-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "End Bringer",
 						"description": "Deals extreme single target Physical damage (6 hits). Increased damage if the target is Stunned.",
+						"description_2": "A-rank : Can reapply stun.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/end-bringer-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Follow Up",
 						"description": "Deals medium single target Light damage (1 hit). Damage increased for each Free Aim shot this turn, up to 10 times.",
+						"description_2": "S-rank : Costs 2 AP.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/follow-up-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "From Fire",
 						"description": "Deals medium single target damage (3 hits). Uses weapon's element. Heals self by 20% Health if the target Burns.",
+						"description_2": "B-rank : Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/from-fire-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Leadership",
 						"description": "Reduces current Rank. Gives 2-4 AP to other allies.",
+						"description_2": "C-rank : +1 more AP to other allies.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/leadership-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Light Holder",
 						"description": "Deals medium single target Light damage (5 hits). At completion, gains 1 Rank.",
+						"description_2": "A-rank : +2 AP.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/light-holder-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Marking Shot",
 						"description": "Deals low single target damage (1 hit). Uses weapon's element. Applies Mark status effect.",
+						"description_2": "C-rank : Increased damage.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/marking-shot-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -2563,36 +2633,42 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Paradigm Shift",
 						"description": "Deals low Physical single target damage (3 hits) and gives 1-3 AP back.",
+						"description_2": "C-rank : +1 AP.",
 						"costAP": 1,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/paradigm-shift-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Perfect Break",
-						"description": "Deals very high single target Light damage (1 hit). Can Break.",
+						"description": "Deals very high single target Light damage (1 hit). Can Break. Rank S-rank on Break.",
+						"description_2": "B-rank : Costs 5 AP.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/perfect-break-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Perfect Recovery",
 						"description": "Recovers 50% Health and dispels Status Effects. Gives 0-2 Perfection.",
+						"description_2": "B-rank : Increased heal to 100% Health.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/perfect-recovery-verso-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Phantom Stars",
 						"description": "Deals extreme Light damage to all enemies (5 hits). Can Break.",
+						"description_2": "S-rank : Costs 5 AP.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/phantom-stars-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Powerful",
 						"description": "Applies Powerful to 1-3 Allies, increasing damage they deal for 3 turns. Gives 0-2 Perfection.",
+						"description_2": "A-rank : Duration increased to 5 turns.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/powerful-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Purification",
 						"description": "Deals single target medium Light damage (2 hits). Dispels self Status Effects.",
+						"description_2": "B-rank : Increased damage",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/purification-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -2605,6 +2681,7 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Radiant Slash",
 						"description": "Deals low Light damage to all enemies (1 hit). Can Break.",
+						"description_2": "D-rank : Gives more Perfection.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/radiant-slash-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -2617,12 +2694,14 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Speed Burst",
 						"description": "Deals high single target Light damage (5 hits). Damage increased by Speed difference with the target.",
+						"description_2": "C-rank : Increased damage",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/speed-burst-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Steeled Strike",
 						"description": "After 1 turn, deals extreme single target Physical damage (13 hits). Interrupted if any damage taken.",
+						"description_2": "S-rank : Increased damage",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/steeled-strike-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -2635,6 +2714,7 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Strike Storm",
 						"description": "Deals very high single target damage (5 hits). Uses weapon's element. Critical Hits generate 2 additional Perfection.",
+						"description_2": "C-rank : Increased damage",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/strike-storm-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					}
@@ -3190,270 +3270,315 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Abbest Wind",
 						"description": "Deals low single target Physical damage (1 hit). Plays a second turn.",
+						"description_2": "Agile Mask: Costs 0 AP.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/abbest-wind-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Aberration Light",
 						"description": "Deals high Light damage to all enemies (2 hits). Applies 4 Burn per hit.",
+						"description_2": "Agile Mask: Applies 2 more burn per hit.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/aberration-light-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Ballet Charm",
 						"description": "Deals low single target Light damage (1 hit). Applies Powerless to the target for 3 turns.",
+						"description_2": "Caster Mask: Increased damage.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/ballet-charm-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Benisseur Mortar",
 						"description": "Deals medium single target Ice damage (3 hits). Changes to Almighty Mask if target is Marked.",
+						"description_2": "Caster Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/benisseur-mortrar-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Braseleur Smash",
 						"description": "Deals medium single target Fire damage (2 hits). Applies 3 Burn.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/braseleur-smash-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Break Point",
-						"description": "Deals extreme single target damage (1 hit). Uses weapon's element. Fills and Breaks the target's Break Bar.",
+						"description": "Deals extreme single target damage (1 hit). Uses weapon's element.",
+						"description_2": "Fills and Breaks the target's Break Bar.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/break-point-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Boucheclier Fortify",
 						"description": "Applies Shell to 1–3 allies for 3 turns.",
+						"description_2": "Heavy Mask: Also applies 1 Shield.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/bouchclier-fortify-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Bruler Bash",
 						"description": "Deals medium single target Physical damage (3 hits). Can Break.",
+						"description_2": "Caster Mask: Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/bruler-bash-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Chalier Combo",
 						"description": "Deals high single target Physical damage (6 hits). Interrupted if failed.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/chalier-combo-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Chapelier Slash",
 						"description": "Deals high Physical damage to all enemies (3 hits). Applies Mark.",
+						"description_2": "Agile Mask: Increased damage.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/chapelier-slash-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Chevaliere Ice",
 						"description": "Deals high Ice damage to all enemies (3 hits). Applies Slow for 3 turns.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/chevaliere-ice-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Chevaliere Piercing",
 						"description": "Deals single target Physical damage through Shields (6 hits). Damage increased for each Shield on target.",
+						"description_2": "Agile Mask: Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/chevaliere-piercing-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Chevaliere Thrusts",
 						"description": "Deals high Physical damage to all enemies (3 hits). Critical hits deal double damage.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/chevaliere-thrusts-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Clair Enfeeble",
 						"description": "Deals medium Light damage to all enemies (1 hit). Applies Powerless for 3 turns.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/clair-enfeeble-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Contorsionniste Blast",
 						"description": "Deals medium Physical damage to all enemies (1 hit). Heals all allies by 10% Health for each enemy hit.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/contorsionniste-blast-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Creation Void",
 						"description": "Deals extreme Void damage to random targets (3 hits). More damage if the same target is hit multiple times.",
+						"description_2": "Caster Mask: Increased damage.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/creation-void-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Cruler Barrier",
 						"description": "Applies 1–2 Shields to the target.",
+						"description_2": "Heavy Mask: Gives 2 AP to the target.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/cruler-barrier-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Cultist Blood",
 						"description": "Deals medium Dark damage to all enemies (3 hits). Sacrifices 90% Health to increase damage.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/cultist-blood-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Cultist Slashes",
 						"description": "Deals medium single target Dark damage (3 hits). Deals more damage the less Health Monoco has.",
+						"description_2": "Agile Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/cultist-slashes-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Danseuse Waltz",
 						"description": "Deals high single target Fire damage (3 hits). Deals more damage against Burning targets.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 8,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/danseuse-waltz-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Demineur Thunder",
 						"description": "Deals low single target Lightning damage (1 hit). Deals extra Break damage.",
+						"description_2": "Caster Mask: Increased Break damage.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/demineur-thunder-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Duallist Storm",
 						"description": "Deals extreme single target Physical damage (4 hits). Can Break.",
+						"description_2": "Almighty Mask: Increased damage.",
 						"costAP": 8,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/duallist-storm-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Echassier Stabs",
 						"description": "Deals medium single target Physical damage (2 hits). Second hit applies Mark.",
+						"description_2": "Agile Mask: Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/echassier-stabs-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Eveque Spear",
 						"description": "Deals high single target Earth damage (1 hit). Applies Powerless for 3 turns.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/eveque-spear-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Gault Fury",
 						"description": "Deals low single target Physical damage (4 hits). Applies Mark.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/gault-fury-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Glaise Earthquakes",
 						"description": "Deals medium Earth damage to all enemies (3 hits). Applies Powerful to self.",
+						"description_2": "Heavy Mask: Applies Powerfull to all allies.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/glaise-earthquakes-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Grosse Tete Whack",
 						"description": "Deals high single target Physical damage (5 hits). Applies Defenceless for 3 turns.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/grosse-tete-whack-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Hexga Crush",
 						"description": "Deals medium single target Earth damage (2 hits). Applies Defenceless for 3 turns.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/hexga-crush-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Jar Lampstorm",
 						"description": "Deals medium Physical damage to all enemies (4 hits).",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/jar-lampstorm-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Lampmaster Light",
 						"description": "Deals high Light damage to all enemies (1 hit). Increased damage at each cast.",
+						"description_2": "Almighty Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/lampaster-light-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Lancelier Impale",
 						"description": "Deals low single target Ice damage (1 hit). Slows the target for 3 turns.",
+						"description_2": "Agile Mask: Increased damage.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/lancelier-impale-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Luster Slices",
 						"description": "Deals low single target Physical damage (3 hits). Applies Rush to self for 3 turns.",
+						"description_2": "Agile Mask: Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/luster-slices-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Mighty Strike",
 						"description": "Deals double damage if the target is Stunned.",
+						"description_2": "Goes to Almighty Mask.",
 						"costAP": 1,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/mighty-strike-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Moissonneuse Vendange",
 						"description": "Deals high single target Physical damage (3 hits). Can Break.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/moissonneuse-vendange-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Obscur Sword",
 						"description": "Deals high single target Dark damage (5 hits). Deals more damage against Powerless targets.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/obscur-sword-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Orphelin Cheers",
 						"description": "Applies Powerful to 1–3 Allies.",
+						"description_2": "Caster Mask: Also gives 3 AP to targets.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/orphelin-cheers-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Pelerin Heal",
 						"description": "Applies Regen to all allies.",
+						"description_2": "Caster Mask: Also Heals 40% Health.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/pelerin-heal-monoco-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
 					},
 					{
 						"name": "Portier Crash",
 						"description": "Deals high Physical damage to all enemies (1 hit). Can Break.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 8,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/portier-crash-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Potier Energy",
 						"description": "Gives 1–3 AP to all allies.",
+						"description_2": "Caster Mask: Gives 1 additional AP.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/potier-energy-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Ramasseur Bonk",
 						"description": "Deals low single target Dark damage (1 hit). Can Break.",
+						"description_2": "Agile Mask: Fills 20% of the target's Break Bar.",
 						"costAP": 2,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/ramasseur-bonk-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Rocher Hammering",
 						"description": "Deals medium single target Physical damage (4 hits). Can Break.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/rocher-hammering-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Sakapatate Estoc",
 						"description": "Deals low single target Lightning damage (1 hit). Deals more damage if the target is Stunned.",
+						"description_2": "Balanced Mask: Increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sakapatate-estoc-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Sakapatate Explosion",
 						"description": "Deals medium Lightning damage to random enemies (3 hits). Critical hits trigger an additional hit.",
+						"description_2": "Caster Mask: Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sakapatate-explosion-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Sakapatate Fire",
 						"description": "Deals extreme Fire damage to all enemies (3 hits). Applies 3 Burn per hit.",
+						"description_2": "Almighty Mask: Increased damage.",
 						"costAP": 9,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sakapatate-fire-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Sakapatate Slam",
 						"description": "Deals high Physical damage to all enemies (1 hit). Increased damage to Marked targets.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 7,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sakapatate-slam-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
@@ -3466,18 +3591,21 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Sapling Absorption",
 						"description": "Deals high Dark damage (3 hits). Recovers 5% Health on hit.",
+						"description_2": "Caster Mask: Increased damage and double Heal.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sapling-absorption-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Stalact Punches",
 						"description": "Deals medium single target Ice damage (4 hits). High Break damage.",
+						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 4,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/stalact-punches-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Troubadour Trumpet",
 						"description": "Applies a random buff to 1–3 allies.",
+						"description_2": "Caster Mask: Applies a second random buff.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/troubadour-trumpet-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					}
