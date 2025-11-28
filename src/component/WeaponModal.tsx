@@ -1,5 +1,6 @@
 import type { WeaponModalProp } from "../interface/weapon"
 import closeButton from '../assets/mark-status-effect-clair-obscur-expedition-33-wiki-guide.png'
+import '../styles/Modal.css'
 
 
 function WeaponModal({image, name, power, element, passiveEffects, attributes, isModalOpen, setIsModalOpen}: WeaponModalProp) {
@@ -9,7 +10,7 @@ function WeaponModal({image, name, power, element, passiveEffects, attributes, i
             <div className="modal-overlay" onClick={() => setIsModalOpen(!isModalOpen)}>
                 <div className="modal-content modal-content-weapon">
                  
-                    <img src={image} alt={name} /> 
+                    <img src={image} alt={name} className="rotating" /> 
 
                     <div className="center">
                         <p>Puiss.</p>

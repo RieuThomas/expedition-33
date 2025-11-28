@@ -1,0 +1,100 @@
+span img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.number {
+    font-family: var(--font-number);
+}
+
+.green {
+    color: #99cc00;
+}
+
+.orange {
+    color: #ff9900;
+}
+
+.red {
+    color: #e65a5a;
+}
+
+.lightblue {
+     color: #33cccc;
+}
+
+.iceblue {
+     color: #00ccff;
+}
+
+.yellow {
+    color: #ffff00;
+}
+
+.dark-red {
+    color: #eb3b3b;;
+}
+
+.beige {
+    color: #cebf99;
+}
+
+.grey {
+    color: #b2a38e;
+}
+
+.kingblue {
+    color: #5474b6;
+}
+
+.dark {
+    color: #9c63be;
+}
+
+.brown {
+    color:#77654d;
+}
+.void {
+    color: #b29b5c;;
+}
+
+.darkbeige {
+     color: #c8a078;
+}
+
+.firered {
+    color: #ff6600;
+}
+
+.earthgreen {
+    color: #99cc00;;
+}
+
+.lightyellow {
+   color: #fcd88a;
+}
+
+.purple {
+    color: #9867a6;
+}
+
+.lightpurple {
+    color: #a28faa;;
+}
+
+.purplemask {
+    color: #b47acc;
+}
+
+.bluemask {
+    color: #7188d6;;
+}
+
+.greenmask {
+    color: #90b464;
+}
+
+.lightmask {
+    color: #c5aa82;
+}
