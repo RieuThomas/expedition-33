@@ -1,24 +1,18 @@
-export interface SkillsProp {
+export interface Skill {
     name : string,
     description : string,
     description_2?: string,
-    gradient_charge?:boolean,
     costAP : number | string,
+    gradient_charge?:boolean,
     image : string
 }
 
 export interface SkillListProp {
-    skills : SkillsProp[]
+    skills : Skill[]
 }
 
-
 export interface SkillModalProp{
-    name : string,
-    description : string,
-    description_2?: string,
-    costAP : number | string,
-    image : string,
+    skill: Skill
     isModalOpen : boolean, 
-    gradient_charge?:boolean,
     setIsModalOpen :React.Dispatch<React.SetStateAction<boolean>>
 }

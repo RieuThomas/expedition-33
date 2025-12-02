@@ -3,23 +3,23 @@ import closeButton from '../assets/mark-status-effect-clair-obscur-expedition-33
 import '../styles/Modal.css'
 import WordStyle from "./WordStyle"
 
-function SkillModal({name, description, description_2, costAP, image, isModalOpen, setIsModalOpen, gradient_charge}: SkillModalProp) {
+function SkillModal({skill, isModalOpen, setIsModalOpen}: SkillModalProp) {
     return (
         
         <div className="modal-container">
             <div className="modal-overlay" onClick={() => setIsModalOpen(!isModalOpen)}>
                 <div className="modal-content modal-content-skills">
-                    <img src={image} alt={name} className="skill-img" />
+                    <img src={skill.image} alt={skill.name} className="skill-img" />
                     <div>
-                        <h3>{name}</h3>
-                        <WordStyle description={description}/>
+                        <h3>{skill.name}</h3>
+                        <WordStyle description={skill.description}/>
                         <br />
-                        {description_2 && 
-                            <WordStyle description={description_2}/>
+                        {skill.description_2 && 
+                            <WordStyle description={skill.description_2}/>
                         }
                     </div>
-                    <div className={`number ${gradient_charge ? 'gradient-container' : 'costAP-container'}`}>
-                        <p className= "number costAP">{costAP}</p>
+                    <div className={`number ${skill.gradient_charge ? 'gradient-container' : 'costAP-container'}`}>
+                        <p className= "number costAP">{skill.costAP}</p>
                     </div>
                     <input type="image" onClick={() => setIsModalOpen(!isModalOpen)} src={closeButton}/>
                 </div>

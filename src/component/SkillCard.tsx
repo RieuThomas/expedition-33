@@ -1,27 +1,22 @@
 import { useState } from "react"
-import type { SkillsProp } from "../interface/skills"
+import type { Skill } from "../interface/skills"
 import SkillModal from "./SkillModal"
 
-function SkillCard({image, name, costAP, description, description_2, gradient_charge}: SkillsProp) {
+function SkillCard({skill}: {skill: Skill}) {
 
     const [isModalOpen, setIsModalOpen] = useState(false)
 
     return(
         <>
             <article onClick={() => setIsModalOpen(!isModalOpen)}>
-                <img src={image} alt={name} />
-                <h3>{name}</h3>       
+                <img src={skill.image} alt={skill.name} />
+                <h3>{skill.name}</h3>       
             </article>
 
             {isModalOpen && (
                 <SkillModal
-                image={image}
-                name={name}
-                costAP={costAP}
-                description={description}
-                description_2={description_2}
+                skill={skill}
                 isModalOpen={isModalOpen}
-                gradient_charge={gradient_charge}
                 setIsModalOpen={setIsModalOpen} 
                 />
             )}
