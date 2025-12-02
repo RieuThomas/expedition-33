@@ -3,7 +3,7 @@ import closeButton from '../assets/mark-status-effect-clair-obscur-expedition-33
 import '../styles/Modal.css'
 import WordStyle from "./WordStyle"
 
-function SkillModal({name, description, description_2, costAP, image, isModalOpen, setIsModalOpen}: SkillModalProp) {
+function SkillModal({name, description, description_2, costAP, image, isModalOpen, setIsModalOpen, gradient_charge}: SkillModalProp) {
     return (
         
         <div className="modal-container">
@@ -18,8 +18,8 @@ function SkillModal({name, description, description_2, costAP, image, isModalOpe
                             <WordStyle description={description_2}/>
                         }
                     </div>
-                    <div className="costAP-container">
-                        <p className="costAP number">{costAP}</p>
+                    <div className={`number ${gradient_charge ? 'gradient-container' : 'costAP-container'}`}>
+                        <p className= "number costAP">{costAP}</p>
                     </div>
                     <input type="image" onClick={() => setIsModalOpen(!isModalOpen)} src={closeButton}/>
                 </div>

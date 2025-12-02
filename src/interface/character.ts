@@ -7,6 +7,7 @@ export interface CharacterAboutProps {
 	secondPortrait: string,
 	description: string,
   description_2?: string,
+  gradient_charge?:boolean,
   sentence: string,
   weapons : WeaponsProp[],
   skills : SkillsProp[],

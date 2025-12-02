@@ -65,7 +65,7 @@ function WordStyle({description}: WordStyleProp) {
     },
     Slow: {
       color: "red",
-      image: "images/slow-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
+      image: "/images/slow-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
     },
     AP: {
       color: "none",
@@ -206,7 +206,7 @@ function WordStyle({description}: WordStyleProp) {
     },
     "Light Stain": {
       color: "none",
-      image: "/images/ice-stain-lune-unique-mechanic-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
+      image: "/images/light-stain-lune-unique-mechanic-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
     },
     "C-rank" : {
       image :"/images/c-rank-verso-mechanic-expedition-33-wiki-guide-23px.png"
@@ -237,11 +237,10 @@ function WordStyle({description}: WordStyleProp) {
   const output: ReactNode[] = [];
 
   let i = 0;
-
   while (i < words.length) {
 
     let matchKey: string | null = null;
-  
+    
     for (const key of sortedKeys) {
       const keyWords = key.split(" ");
       const segment = words.slice(i, i + keyWords.length)
@@ -255,36 +254,50 @@ function WordStyle({description}: WordStyleProp) {
     }
 
     if (matchKey) {
+
+      const keyWordCount = matchKey.split(" ").length;
+      const rawSegment = words.slice(i, i + keyWordCount).join(" ");
+      const match = rawSegment.match(/^(.+?)([.,!?;:]?)$/);
+
+      const clean = match ? match[1] : rawSegment;
+      const punct = match ? match[2] : "";
+
       output.push(
         <span key={i} className={dictionary[matchKey].color ?? ""}>
-          {dictionary[matchKey].color && matchKey}{" "}
-          {dictionary[matchKey].image && <img
-            src={dictionary[matchKey].image}
-            alt={matchKey}
-          />}{" "}
+          {dictionary[matchKey].color && clean}
+          {dictionary[matchKey].image && (
+            <img src={dictionary[matchKey].image} alt={matchKey} />
+          )}
+          {punct + " "}
         </span>
-      )
+      );
 
       i += matchKey.split(" ").length;
-    } else if(Number.isInteger(Number(normalize(words[i])))){
-      output.push(<span key={i} className="number">{words[i]} </span>)
-      i++;
+
     } else {
-      output.push(<span key={i}>{words[i]} </span>)
+
+      const raw = words[i];
+      const match = raw.match( /^(\D*)(\d+(?:%?)(?:[-–]\d+(?:%?)?)?)(\D*)$/);
+
+      if (match && match[2]) {
+        const before = match[1];
+        const number = match[2];
+        const after = match[3];
+
+        output.push(
+          <span key={i}>
+            {before}
+            <span className="number">{number}</span>
+            {after}{" "}
+          </span>
+        );
+      } else {
+        output.push(<span key={i}>{raw} </span>);
+      }
       i++;
     }
   }
-
   return <>{output}</>
 }
 
-
 export default WordStyle
-
-/*
-j'ai un tableau d'objet.
-J'ai une phrase que je veux transformer
-je peux transformer une phrase en tableau
-je regarde la premiere valeur du tableau
-
-*/

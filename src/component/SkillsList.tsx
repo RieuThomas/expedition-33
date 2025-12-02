@@ -12,7 +12,8 @@ function SkillsList({ skills }: SkillListProp) {
                     description={skill.description}
                     description_2={skill.description_2}
                     costAP={skill.costAP} 
-                    key={skill.name} 
+                    key={skill.name}
+                    gradient_charge={skill.gradient_charge} 
                     />
             ))} 
         </>  

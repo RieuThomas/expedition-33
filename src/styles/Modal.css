@@ -51,6 +51,17 @@
   transform: rotate(45deg);
 }
 
+.modal-content-skills div.gradient-container {
+  position: absolute;
+  top: 12px;
+  right: 56px;
+  height: 20px;
+  width: 20px;
+  background: rgb(79, 1, 110);
+  border: solid 2px var(--primary-color);
+  transform: rotate(45deg);
+}
+
 .modal-content-skills div p.costAP {
   padding-top: 1px;
   padding-left: 8px;

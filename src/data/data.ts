@@ -629,7 +629,7 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Earth Rising",
-						"description": "Deals low Earth damage to all enemies (1 hit). Consumes Lightning Stain for increased damage.",
+						"description": "Deals low Earth damage to all enemies (1 hit).",
 						"description_2": "Consumes Lightning Stain for increased damage.",
 						"costAP": 3,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/earth-rising-lune-skill-clair-obscur-expedition-33-wiki-guide-100px-min.png"
@@ -728,7 +728,8 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Sky Break",
 						"description": "Deals extreme damage to all enemies (1 hit). Element depends on which Stains Lune has the most. Can Break.",
-						"costAP": "Gradient Charge",
+						"costAP": 3,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sky-break-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -762,13 +763,15 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Tree of Life",
 						"description": "Cleanses all Status Effects and Heals all allies.",
-						"costAP": "Gradient Charge",
+						"costAP": 2,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/tree-of-life-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Tremor",
 						"description": "Deals high Earth damage to all enemies (1 hit). Removes all enemies' Shields.",
-						"costAP": "Gradient Charge",
+						"costAP": 1,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/tremor-lune-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -1297,7 +1300,8 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Gommage",
 						"description": "Kills weak targets. Otherwise, deals extreme Void damage (1 hit).",
-						"costAP": "Gradient Charge",
+						"costAP": 1,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/gommage-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -1368,8 +1372,9 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Phoenix Flame",
-						"description": "Applies 10 Burn to all enemies and revives all allies with 50–70% Health.",
-						"costAP": "Gradient Charge",
+						"description": "Applies 10 Burn to all enemies and revives all allies with 50 to 70% Health.",
+						"costAP": 2,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/phoenix-flame-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -1423,7 +1428,8 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Virtuose Strike",
 						"description": "Deals high single-target Physical damage (5 hits).",
-						"costAP": "Gradient Charge",
+						"costAP": 1,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/virtuose-strike-maelle-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					}
 				],
@@ -1957,13 +1963,15 @@ const Expedition : ExpeditionProps =
 					{
 						"name": "Doom",
 						"description": "Deals very high single-target Dark damage (3 hits). Applies Powerless, Defenseless, and Slow for 3 turns. Can Break.",
-						"costAP": "Gradient Charge",
+						"costAP": 2,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/doom-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "End Slice",
 						"description": "Deals extreme single-target Physical damage (1 hit). Damage increases for each Foretell consumed since the start of battle.",
-						"costAP": "Gradient Charge",
+						"costAP": 3,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/end-slice-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -2063,7 +2071,8 @@ const Expedition : ExpeditionProps =
 						"name": "Shadow Bringer",
 						"description": "Deals high single-target Dark damage to random enemies (10 hits).",
 						"description_2": "Applies 1 Foretell per hit.",
-						"costAP": "Gradient Charge",
+						"costAP": 1,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/shadow-bringer-sciel-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -2538,6 +2547,7 @@ const Expedition : ExpeditionProps =
 						"name": "Angel's Eyes",
 						"description": "Deals extreme Physical damage (8 hits). Gain 1 additional Perfection status effect per hit. Applies Aureole to Verso, reviving him if he dies.",
 						"costAP": 3,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/angels-eyes-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -2689,6 +2699,7 @@ const Expedition : ExpeditionProps =
 						"name": "Sabotage",
 						"description": "Deals medium Physical damage to all enemies (1 hit). Applies Mark status effect.",
 						"costAP": 1,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sabotage-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -2709,6 +2720,7 @@ const Expedition : ExpeditionProps =
 						"name": "Striker",
 						"description": "Deals high single target Physical damage (1 hit). Can Break.",
 						"costAP": 2,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/striker-verso-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -3307,6 +3319,7 @@ const Expedition : ExpeditionProps =
 						"description": "Deals extreme single target damage (1 hit). Uses weapon's element.",
 						"description_2": "Fills and Breaks the target's Break Bar.",
 						"costAP": 3,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/break-point-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -3496,6 +3509,7 @@ const Expedition : ExpeditionProps =
 						"description": "Deals double damage if the target is Stunned.",
 						"description_2": "Goes to Almighty Mask.",
 						"costAP": 1,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/mighty-strike-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
@@ -3586,6 +3600,7 @@ const Expedition : ExpeditionProps =
 						"name": "Sanctuary",
 						"description": "Gives 2 Shields and applies Regen to all allies for 3 turns.",
 						"costAP": 2,
+						"gradient_charge":true,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/sanctuary-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
