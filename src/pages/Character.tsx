@@ -1,15 +1,15 @@
 import { Link } from 'react-router'
-import Expedition from '../data/data.ts'
 import '../styles/Character.css'
+import { useExpedition } from '../context/ExpeditionContext.tsx'
 
 function Character() {
-    const characters = Expedition.characterAbout
+    const { characterAbout } = useExpedition()
     
     return(
         <>
             <h1>All Characters</h1>
             <section className="all-character">
-                {characters.map((character) => (
+                {characterAbout.map((character) => (
                     <Link
                         key={character.name} 
                         to={`/character/${character.name}`}

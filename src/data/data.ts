@@ -1866,7 +1866,7 @@ const Expedition : ExpeditionProps =
 						],
 						"passiveEffects": {
 							"Lvl4": "If Stanceless, Base Attack switches to Offensive Stance.",
-							"Lvl10": "Counterattacks apply Defenceless.",
+							"Lvl10": "Counterattacks apply Defenseless.",
 							"Lvl20": "+50% Critical Chance while in Offensive Stance."
 						},
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/veremum_maelle_weapon_expedition_33_wiki_guide.png"
@@ -3464,14 +3464,14 @@ const Expedition : ExpeditionProps =
 					},
 					{
 						"name": "Grosse Tete Whack",
-						"description": "Deals high single target Physical damage (5 hits). Applies Defenceless for 3 turns.",
+						"description": "Deals high single target Physical damage (5 hits). Applies Defenseless for 3 turns.",
 						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 6,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/grosse-tete-whack-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
 					},
 					{
 						"name": "Hexga Crush",
-						"description": "Deals medium single target Earth damage (2 hits). Applies Defenceless for 3 turns.",
+						"description": "Deals medium single target Earth damage (2 hits). Applies Defenseless for 3 turns.",
 						"description_2": "Heavy Mask: Increased damage.",
 						"costAP": 5,
 						"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/hexga-crush-monoco-skill-clair-obscur-expedition-33-wiki-guide-200px-min.png"
@@ -3969,7 +3969,7 @@ const Expedition : ExpeditionProps =
 					"description": "Reduces Speed by 25%."
 				},
 				{
-					"name": "Defenceless",
+					"name": "Defenseless",
 					"description": "Increases damage received by 25%."
 				}
 			]
@@ -4331,7 +4331,7 @@ const Expedition : ExpeditionProps =
 			},
 			{
 				"name": "Critical Vulnerability",
-				"effect": "25% increased Critical Chance on Defenceless enemies.",
+				"effect": "25% increased Critical Chance on Defenseless enemies.",
 				"lumina_points": 5,
 				"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/4-pictos-equipment-clair-obscur-expedition-33-wiki-guide75px.png"
 			},
@@ -4607,7 +4607,7 @@ const Expedition : ExpeditionProps =
 			},
 			{
 				"name": "Exposing Break",
-				"effect": "Apply Defenceless on Break.",
+				"effect": "Apply Defenseless on Break.",
 				"lumina_points": 5,
 				"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/10-pictos-equipment-clair-obscur-expedition-33-wiki-guide75px.png"
 			},
@@ -4666,8 +4666,8 @@ const Expedition : ExpeditionProps =
 				"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/7-pictos-equipment-clair-obscur-expedition-33-wiki-guide75px.png"
 			},
 			{
-				"name": "Greater Defenceless",
-				"effect": "+15% to Defenceless damage amplification.",
+				"name": "Greater Defenseless",
+				"effect": "+15% to Defenseless damage amplification.",
 				"lumina_points": 15,
 				"image": "https://expedition33.wiki.fextralife.com/file/Expedition-33/1-pictos-equipment-clair-obscur-expedition-33-wiki-guide75px.png"
 			},

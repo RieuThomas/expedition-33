@@ -3,7 +3,7 @@ import type { LuminasPictosProps } from "./lumina"
 import type { AllstatusAndTypesProps } from "./status"
 
 export interface ExpeditionProps {
-  characterAbout: CharacterAboutProps[],
+  characterAbout: CharacterAboutProps[]
   allStatusAndTypes : AllstatusAndTypesProps
   luminasPictos : LuminasPictosProps[]
 }

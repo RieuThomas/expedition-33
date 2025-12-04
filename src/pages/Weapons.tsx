@@ -1,12 +1,12 @@
-import Expedition from '../data/data.ts'
 import WeaponsList from '../component/WeaponsList.tsx'
+import { useExpedition } from '../context/ExpeditionContext.tsx'
 import type { CharacterAboutProps } from '../interface/character.ts'
 
 function Weapons() {
-    const characters = Expedition.characterAbout
+    const { characterAbout } = useExpedition()
 
     return (
-        characters.map((character:CharacterAboutProps) => (
+        characterAbout.map((character:CharacterAboutProps) => (
             character.name !== 'Verso' && (
                 <>
                     <h2>{character.name === 'Gustave' 

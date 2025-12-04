@@ -1,7 +1,5 @@
 import type { WeaponModalProp } from "../interface/weapon"
-import closeButton from '../assets/mark-status-effect-clair-obscur-expedition-33-wiki-guide.png'
 import '../styles/Modal.css'
-
 
 function WeaponModal({weapon, isModalOpen, setIsModalOpen}: WeaponModalProp) {
 
@@ -48,7 +46,10 @@ function WeaponModal({weapon, isModalOpen, setIsModalOpen}: WeaponModalProp) {
                         {weapon.passiveEffects.Lvl20}
                     </p>
 
-                    <input type="image" onClick={() => setIsModalOpen(!isModalOpen)} src={closeButton}/>
+                    <input type="image" 
+                        onClick={() => setIsModalOpen(!isModalOpen)} 
+                        src="/images/mark-status-effect-clair-obscur-expedition-33-wiki-guide.png"
+                    />
                 </div>
             </div>
         </div>

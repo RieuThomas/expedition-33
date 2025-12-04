@@ -6,6 +6,8 @@ import Character from "./pages/Character";
 import Bestiary from "./pages/Bestiary";
 import CharacterCard from "./pages/CharacterCard";
 import Skills from "./pages/Skills";
+import Lumina from "./pages/Lumina";
+import StatusEffect from "./pages/StatusEffect";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "/character/:names",
         element: <CharacterCard />
+      },
+      {
+        path: "/luminas",
+        element: <Lumina />
+      },
+      {
+        path: "/status_effect",
+        element: <StatusEffect />
       }
     ],
   },

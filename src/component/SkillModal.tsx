@@ -1,5 +1,4 @@
 import type { SkillModalProp } from "../interface/skills"
-import closeButton from '../assets/mark-status-effect-clair-obscur-expedition-33-wiki-guide.png'
 import '../styles/Modal.css'
 import WordStyle from "./WordStyle"
 
@@ -21,7 +20,10 @@ function SkillModal({skill, isModalOpen, setIsModalOpen}: SkillModalProp) {
                     <div className={`number ${skill.gradient_charge ? 'gradient-container' : 'costAP-container'}`}>
                         <p className= "number costAP">{skill.costAP}</p>
                     </div>
-                    <input type="image" onClick={() => setIsModalOpen(!isModalOpen)} src={closeButton}/>
+                    <input type="image" 
+                        onClick={() => setIsModalOpen(!isModalOpen)} 
+                        src="/images/mark-status-effect-clair-obscur-expedition-33-wiki-guide.png"
+                    />
                 </div>
             </div>
         </div>

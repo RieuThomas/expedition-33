@@ -11,8 +11,8 @@ interface DictionaryEntry {
 }
 
 function WordStyle({description}: WordStyleProp) {
-      const dictionary:Record<string, DictionaryEntry> = {
-    Burns: {
+  const dictionary:Record<string, DictionaryEntry> = {
+      Burns: {
       color: "orange",
       image: "/images/burn-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
     },
@@ -236,7 +236,7 @@ function WordStyle({description}: WordStyleProp) {
   };
 
   function normalize(str: string) {
-    return str.replace(/[.,!?;:()]/g, ""); // retire la ponctuation
+    return str.replace(/[.,!?;:()]/g, "");
   }
 
   const words = description.split(" ");

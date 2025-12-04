@@ -1,5 +1,5 @@
-import type { SkillsProp } from "./skills";
-import type { WeaponsProp } from "./weapon";
+import type { Skill } from "./skills";
+import type { Weapon } from "./weapon";
 
 export interface CharacterAboutProps {
   name: string,
@@ -9,8 +9,8 @@ export interface CharacterAboutProps {
   description_2?: string,
   gradient_charge?:boolean,
   sentence: string,
-  weapons : WeaponsProp[],
-  skills : SkillsProp[],
+  weapons : Weapon[],
+  skills : Skill[],
 }
 
 export interface CharacterSectionProps {

@@ -1,12 +1,12 @@
-import Expedition from '../data/data.ts'
 import SkillList from '../component/SkillsList.tsx'
 import type { CharacterAboutProps } from '../interface/character.ts'
+import { useExpedition } from '../context/ExpeditionContext.tsx'
 
 function Skills() {
-    const characters = Expedition.characterAbout
+    const { characterAbout } = useExpedition()
 
     return (
-        characters.map((character:CharacterAboutProps) => (
+        characterAbout.map((character:CharacterAboutProps) => (
             <>
                 <h2>{character.name}</h2>
                 <section className={`skills ${character.name.toLowerCase()}-skills`}>

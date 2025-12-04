@@ -24,7 +24,7 @@ function App() {
             <div className='dropdown'>
               <Link to="/weapons">Weapons</Link>
               <Link to="/skills">Skills</Link>
-              <Link to="/statut_effect">Status Effect</Link>
+              <Link to="/status_effect">Status Effect</Link>
               <Link to="/luminas">Luminas</Link> 
             </div>          
             }

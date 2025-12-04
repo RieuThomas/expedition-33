@@ -1,13 +1,13 @@
 import { useParams } from "react-router"
-import Expedition from '../data/data.ts'
 import WeaponsList from '../component/WeaponsList.tsx'
 import SkillsList from "../component/SkillsList.tsx"
 import CharacterSection from "../component/CharacterSection.tsx"
+import { useExpedition } from "../context/ExpeditionContext.tsx"
 
 function CharacterCard() {
-    const characters = Expedition.characterAbout
+    const { characterAbout } = useExpedition()
     const { names } = useParams()
-    const characterToShow = characters.find((character) => character.name === names)
+    const characterToShow = characterAbout.find((character) => character.name === names)
 
     return  (
         <>
