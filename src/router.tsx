@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
 import Home from "./pages/Home";
-import Equipment from "./pages/Equipment";
+import Weapons from "./pages/Weapons";
 import Character from "./pages/Character";
 import Bestiary from "./pages/Bestiary";
 import CharacterCard from "./pages/CharacterCard";
+import Skills from "./pages/Skills";
 
 const router = createBrowserRouter([
   {
@@ -15,8 +16,12 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/equipment",
-        element: <Equipment />,
+        path: "/weapons",
+        element: <Weapons />,
+      },
+      {
+        path: "/skills",
+        element: <Skills />,
       },
       {
         path: "/character",
@@ -29,7 +34,6 @@ const router = createBrowserRouter([
       {
         path: "/character/:names",
         element: <CharacterCard />
-
       }
     ],
   },

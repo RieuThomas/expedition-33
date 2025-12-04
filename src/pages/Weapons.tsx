@@ -1,9 +1,8 @@
 import Expedition from '../data/data.ts'
 import WeaponsList from '../component/WeaponsList.tsx'
-import SkillsList from "../component/SkillsList.tsx"
 import type { CharacterAboutProps } from '../interface/character.ts'
 
-function Equipment() {
+function Weapons() {
     const characters = Expedition.characterAbout
 
     return (
@@ -22,4 +21,4 @@ function Equipment() {
     )
 }
 
-export default Equipment
+export default Weapons
