@@ -29,9 +29,24 @@ function WeaponModal({weapon, isModalOpen, setIsModalOpen}: WeaponModalProp) {
                         </div>
                     ))}
 
-                    <p className="level">LVL 4 : {weapon.passiveEffects.Lvl4}</p>
-                    <p className="level">LVL 10 : {weapon.passiveEffects.Lvl10}</p>                   
-                    <p className="level">LVL 20 : {weapon.passiveEffects.Lvl20}</p>
+                    <p className="level">
+                        <span className="number">
+                            LVL 4 :{" "}
+                        </span> 
+                        {weapon.passiveEffects.Lvl4}
+                    </p>
+                    <p className="level">
+                        <span className="number">
+                            LVL 10 :{" "}
+                        </span> 
+                        {weapon.passiveEffects.Lvl10}
+                    </p>                   
+                    <p className="level">
+                        <span className="number">
+                            LVL 20 :{" "}
+                        </span> 
+                        {weapon.passiveEffects.Lvl20}
+                    </p>
 
                     <input type="image" onClick={() => setIsModalOpen(!isModalOpen)} src={closeButton}/>
                 </div>

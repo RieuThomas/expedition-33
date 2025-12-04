@@ -59,6 +59,10 @@ function WordStyle({description}: WordStyleProp) {
       color: "beige",
       image: "/images/break-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
     },
+    Breaks: {
+      color: "beige",
+      image: "/images/break-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
+    },
     Broken: {
       color: "beige",
       image: "/images/break-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
@@ -225,6 +229,9 @@ function WordStyle({description}: WordStyleProp) {
     },
     "Status Effects" :{
       color: "lightyellow"
+    },
+    "Break Bar" :{
+      color: "none"
     }
   };
 
