@@ -55,7 +55,7 @@ function App() {
       </main>
 
       <footer>
-            <p>© 2025 Wild Code School ade with 💖 by wilder</p>
+            <p>© 2025 Wild Code School made with 💖 by wilder</p>
             <p>"My, what lovely footer."</p>
       </footer>
     </> 

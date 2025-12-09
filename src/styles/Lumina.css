@@ -1,0 +1,65 @@
+.search-sort {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:36px;
+    margin: auto;
+}
+
+.all-lumina {
+    display: grid;
+}
+
+.all-lumina .lumina-article:nth-child(even) {
+    background-color: black;
+}
+
+#lumina-search,
+#lumina-select {
+    box-sizing: border-box;
+    width: 170px;
+    height: 22px;
+    padding: 2px 2px;
+}
+
+.all-lumina article {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 36px;
+    width: 95%;
+    margin: auto;
+    height: 100px;
+    border: 1px solid grey;
+    align-items: center;
+}
+
+.all-lumina article.lumina-article img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.all-lumina article.lumina-article h3 {
+    grid-column: 2/4;
+}
+
+.all-lumina article.lumina-article p:nth-of-type(1) {
+    grid-column: 4/8;
+}
+
+.all-lumina article.lumina-article p:nth-of-type(2) {
+    grid-column: 8/9;
+}
+
+.all-lumina article.lumina-title h3:nth-of-type(1) {
+    grid-column: 2/4;
+}
+
+.all-lumina article.lumina-title h3:nth-of-type(2) {
+    grid-column: 4/8;
+}
+
+.all-lumina article.lumina-title h3:nth-of-type(3) {
+    grid-column: 8/9;
+}

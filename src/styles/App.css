@@ -125,7 +125,10 @@ section {
   margin: 40px;
 }
 
-section article {
+section.weapons article,
+section.skills article,
+section.all-character article,
+section.character article {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -138,7 +141,10 @@ section article {
     height: 300px;
 }
 
-section article:hover {
+section.weapons article:hover,
+section.skills article:hover,
+section.all-character article:hover,
+section.character article:hover {
     transform: scale(1.02);
     box-shadow: 0px 0px 11px 5px rgba(120, 120, 120, 0.7);
     cursor: pointer;
