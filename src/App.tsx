@@ -3,10 +3,13 @@ import './styles/variables.css'
 import './styles/App.css'
 import { Link, Outlet } from 'react-router'
 import { useState } from 'react'
+import { useExpedition } from './context/ExpeditionContext'
 
 function App() {
 	const [isEquipmentsOpen, setIsEquipmentsOpen] = useState(false)
 	const [isCharactersOpen, setIsCharactersOpen] = useState(false)
+  const { characterAbout } = useExpedition()
+  const equipments = ['Weapons', 'Skills', 'Status_Effect','Lumina']
 
   return (
     <>
@@ -21,11 +24,10 @@ function App() {
           >
             <p>Equipment</p>
             {isEquipmentsOpen &&
-            <div className='dropdown'>
-              <Link to="/weapons">Weapons</Link>
-              <Link to="/skills">Skills</Link>
-              <Link to="/status_effect">Status Effect</Link>
-              <Link to="/luminas">Luminas</Link> 
+            <div className='dropdown' onClick={() => setIsEquipmentsOpen(false)}>
+              {equipments.map((equipment) => (
+                <Link to={`/${equipment.toLowerCase()}`}>{equipment.split('_').join(' ')}</Link>
+              ))}
             </div>          
             }
           </div>
@@ -36,13 +38,10 @@ function App() {
           >
             <Link to="/character">Characters</Link>
             {isCharactersOpen &&
-            <div className='dropdown'>
-              <Link to="/character/Gustave">Gustave</Link>
-              <Link to="/character/Lune">Lune</Link>
-              <Link to="/character/Maelle">Maelle</Link>
-              <Link to="/character/Sciel">Sciel</Link>
-              <Link to="/character/Verso">Verso</Link>
-              <Link to="/character/Monoco">Monoco</Link>  
+            <div className='dropdown'onClick={() => setIsCharactersOpen(false)}>
+              {characterAbout.map((character) => (
+                <Link to={`/character/${character.name}`}>{character.name}</Link>
+              ))}  
             </div>          
             }
           </div>           

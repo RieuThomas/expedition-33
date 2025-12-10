@@ -7,7 +7,6 @@ function StatusEffect() {
    
     return(
         <>
-            <h1>All Status</h1>
             <section className="all-status">
                 {allStatusAndTypes.buffs.map((buff) => (             
                         <article key={buff.name}>                           

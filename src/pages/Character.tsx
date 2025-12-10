@@ -7,7 +7,6 @@ function Character() {
     
     return(
         <>
-            <h1>All Characters</h1>
             <section className="all-character">
                 {characterAbout.map((character) => (
                     <Link

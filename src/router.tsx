@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         element: <CharacterCard />
       },
       {
-        path: "/luminas",
+        path: "/lumina",
         element: <Lumina />
       },
       {
