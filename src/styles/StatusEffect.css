@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-
 }
 
 .all-status :nth-child(1) {
@@ -37,3 +36,4 @@
     height: 20px;
     margin-left: 10px;
 }
+

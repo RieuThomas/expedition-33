@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <header>
-        <img src="https://store.ign.com/cdn/shop/files/expedition-33-logo.png?v=1759871602" alt="title-image"/>
+        <img src="/images/clair_obscur_expedition_33.png" alt="title-image"/>
         <nav>
           <Link to="/">Home</Link>
           <div 

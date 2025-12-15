@@ -17,7 +17,7 @@ function WeaponModal({weapon, isModalOpen, setIsModalOpen}: WeaponModalProp) {
 
                     <div className="center">
                         <p>Element</p>
-                        <p>{weapon.element}</p>
+                        <img src={`/images/${weapon.element.toLowerCase()}-element-icon-clair-obscur-expedition-33-wiki-guide.png`} alt={weapon.element} />
                     </div>
 
                     {weapon.attributes.map((attribute) =>(
@@ -26,7 +26,7 @@ function WeaponModal({weapon, isModalOpen, setIsModalOpen}: WeaponModalProp) {
                             <p>{attribute.value}</p>
                         </div>
                     ))}
-
+                    
                     <p className="level">
                         <span className="number">
                             LVL 4 :{" "}
