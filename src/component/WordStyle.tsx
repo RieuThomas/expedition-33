@@ -138,11 +138,11 @@ function WordStyle({description}: WordStyleProp) {
     },
     Stunned: {
       color: "darkbeige",
-      image: "/images/stun-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
+      image: "/images/stun-status-effect-clair-obscur-expedition-33-wiki-guide.png",
     },
     Stun: {
       color: "darkbeige",
-      image: "/images/stun-status-effect-icon-clair-obscur-expedition-33-wiki-guide-20px.png",
+      image: "/images/stun-status-effect-clair-obscur-expedition-33-wiki-guide.png",
     },
     Shield: {
       color: "none",
