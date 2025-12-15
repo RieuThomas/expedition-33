@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <header>
+      <header id='header'>
         <img src="/images/clair_obscur_expedition_33.png" alt="title-image"/>
         <nav>
           <Link to="/">Home</Link>
@@ -47,10 +47,14 @@ function App() {
           </div>           
           <Link to="/bestiary">Bestiary</Link>
         </nav>
+          <a href='#header'className='button-to-top'>
+            <img src="/images/top.png" alt="arrow to the top" />
+          </a>
       </header>
 
       <main>
         <Outlet />
+        
       </main>
 
       <footer>
